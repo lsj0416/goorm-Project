@@ -1,0 +1,107 @@
+#primary-navigation {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.nav-top {
+    display: flex;
+    margin: 30px 10px;
+}
+
+.nav-top-logo {
+    width: 100px;
+    height: 40px;
+}
+
+.nav-center {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.nav-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+.nav-center * {
+    display: flex;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.nav-center.profile img {
+    border-radius: 50%;
+}
+
+.nav-bottom * {
+    display: flex;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.nav-icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.nav-text {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.nav-center *:hover {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.nav-bottom *:hover {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+    #primary-navigation {
+        display: none
+    }   
+}
+
+@media (max-width: 1200px) {
+    #primary-navigation {
+        width: 70px;
+    }
+
+    .nav-top {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-top-logo {
+        content: url("/instagram/assets/icons/small-logo.svg");
+        width: 30px;
+        height: 40px;
+    }
+
+    .nav-top-logo:hover {
+        background-color: #ccc;
+        border-radius: 5px;
+    }
+
+    .nav-text {
+        display: none;
+    }
+}

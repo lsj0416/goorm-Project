@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="header-left">
+            <a href="#" id="header-logo-button" aria-label="Instagram Home">
+                <img src="assets/icons/logo.svg" alt="Instagram Logo">
+            </a>
+        </div>
+        <div class="header-right">
+            <div class="header-search-bar">
+                <input type="text" placeholder="검색">
+                <img src="assets/icons/search.svg" alt="Header Search Icon" id="header-search-icon">
+            </div>
+            <button id="header-notification-button" aria-label="Notifications">
+                <img src="assets/icons/heart.svg" alt="Notification Icon">
+            </button>
+        </div>
+    </header>
+    <nav id="primary-navigation">
+        <div class="nav-top">
+            <a href="#" class="nav-top-logo" aria-label="Instagram Home">
+                <img src="assets/icons/logo.svg" alt="Instagram Logo">
+            </a>
+        </div>
+        <div class="nav-center">
+            <div class="nav-center home">
+                <a href="#" aria-label="Home">
+                    <img class="nav-icon" src="assets/icons/home.svg" alt="Home Icon">
+                </a>
+                <span class="nav-text">홈</span>
+            </div>
+            <div class="nav-center search">
+                <a href="#" aria-label="Search">
+                    <img class="nav-icon" src="assets/icons/search.svg" alt="Search Icon">
+                </a>
+                <span class="nav-text">검색</span>
+            </div>
+            <div class="nav-center explore">
+                <a href="#" aria-label="Explore">
+                    <img class="nav-icon" src="assets/icons/explore.png" alt="Explore Icon">
+                </a>
+                <span class="nav-text">탐색 탭</span>
+            </div>
+            <div class="nav-center reels">
+                <a href="#" aria-label="Reels">
+                    <img class="nav-icon" src="assets/icons/reels.svg" alt="Reels Icon">
+                </a>
+                <span class="nav-text">릴스</span>
+            </div>
+            <div class="nav-center mesaages">
+                <a href="#" aria-label="Messages">
+                    <img class="nav-icon" src="assets/icons/share.svg" alt="Messages Icon">
+                </a>
+                <span class="nav-text">메세지</span>
+            </div>
+            <div class="nav-center notifications">
+                <a href="#" aria-label="Notifications">
+                    <img class="nav-icon" src="assets/icons/heart.svg" alt="Notifications Icon">
+                </a>
+                <span class="nav-text">알림</span>
+            </div>
+            <div class="nav-center create">
+                <a href="#" aria-label="Create">
+                    <img class="nav-icon" src="assets/icons/plus.png" alt="create Icon">
+                </a>
+                <span class="nav-text">만들기</span>
+            </div>
+            <div class="nav-center profile">
+                <a href="#" aria-label="Profile">
+                    <img class="nav-icon" src="assets/images/avatar.png" alt="Profile Icon">
+                </a>
+                <span class="nav-text">프로필</span>
+            </div>
+        </div>
+        <div class="nav-bottom">
+            <div class="nav-bottom threads">
+                <a href="#" aria-label="Threads">
+                    <img class="nav-icon" src="assets/icons/threads.svg" alt="Threads Icon">
+                </a>
+                <span class="nav-text">Threads</span>
+            </div>
+            <div class="nav-bottom more">
+                <a href="#" aria-label="More">
+                    <img class="nav-icon" src="assets/icons/menu.svg" alt="More Icon">
+                </a>
+                <span class="nav-text">더 보기</span>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="main-content">
+            <section class="story-section">
+                <div class="story-container">
+                    <a class="story-item">
+                        <img src="assets/images/avatar.png" alt="Story Avatar">
+                        <span class="story-username">user1</span>
+                    </a>
+                    <a class="story-item">
+                        <img src="assets/images/avatar.png" alt="Story Avatar">
+                        <span class="story-username">user2</span>
+                    </a>
+                    <a class="story-item">
+                        <img src="assets/images/avatar.png" alt="Story Avatar">
+                        <span class="story-username">user3</span>
+                    </a>
+                </div>
+            </section>
+            <article class="main-container">
+
+                <div class="post">
+                    <div class="post-header">
+                        <a class="post-header-avatar">
+                            <img src="assets/images/avatar.png" alt="User Avatar">
+                        </a>
+                        <a href="#" class="post-header-username">user1</a>
+                        <span style="color: #999;">•</span>
+                        <a href="#" class="post-header-time">1시간</a>
+                        <a href="#" class="post-header-options">
+                            <img src="assets/icons/more.svg" alt="More Options Icon">
+                        </a>
+                    </div>
+                    <div class="post-image">
+                        <img src="assets/images/picture.jpeg" alt="Post Image">
+                    </div>
+                    <div class="post-actions">
+                        <a href="#" class="post-actions heart" alt="Post Actions Heart">
+                            <img src="assets/icons/heart.svg" alt="Heart">
+                        </a>
+                        <a href="#" class="post-actions reply" alt="Post Actions Reply">
+                            <img src="assets/icons/comment.svg" alt="Comment">
+                        </a>
+                        <a href="#" class="post-actions share" alt="Post Actions Share">
+                            <img src="assets/icons/share.svg" alt="Share">
+                        </a>
+                        <a href="#" class="post-actions bookmark" alt="Post Actions Bookmark">
+                            <img src="assets/icons/bookmark.svg" alt="Bookmark">
+                        </a>
+                    </div>
+                    <a href="#" class="post-likes">
+                        <span>좋아요 5개</span>
+                    </a>
+                    <div class="post-caption">
+                        <a href="#" class="post-caption-username" alt="Username">user1</a>
+                        <span>게시글</span>
+                    </div>
+                    <a href="#" class="post-comments" alt="Comments">
+                        <span>댓글 3개 모두 보기</span>
+                    </a>
+                    <div class="post-reply">
+                        <input type="text" class="post-reply-input" placeholder="댓글 달기...">
+                        <a href="#">
+                            <img src="assets/icons/emoji.png" class="post-reply-emoji" alt="Emoji">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <a class="post-header-avatar">
+                            <img src="assets/images/avatar.png" alt="User Avatar">
+                        </a>
+                        <a href="#" class="post-header-username">user2</a>
+                        <span style="color: #999;">•</span>
+                        <a href="#" class="post-header-time">1시간</a>
+                        <a href="#" class="post-header-options">
+                            <img src="assets/icons/more.svg" alt="More Options Icon">
+                        </a>
+                    </div>
+                    <div class="post-image">
+                        <img src="assets/images/picture.jpeg" alt="Post Image">
+                    </div>
+                    <div class="post-actions">
+                        <a href="#" class="post-actions heart" alt="Post Actions Heart">
+                            <img src="assets/icons/heart.svg" alt="Heart">
+                        </a>
+                        <a href="#" class="post-actions reply" alt="Post Actions Reply">
+                            <img src="assets/icons/comment.svg" alt="Comment">
+                        </a>
+                        <a href="#" class="post-actions share" alt="Post Actions Share">
+                            <img src="assets/icons/share.svg" alt="Share">
+                        </a>
+                        <a href="#" class="post-actions bookmark" alt="Post Actions Bookmark">
+                            <img src="assets/icons/bookmark.svg" alt="Bookmark">
+                        </a>
+                    </div>
+                    <a href="#" class="post-likes">
+                        <span>좋아요 5개</span>
+                    </a>
+                    <div class="post-caption">
+                        <a href="#" class="post-caption-username" alt="Username">user1</a>
+                        <span>게시글</span>
+                    </div>
+                    <a href="#" class="post-comments" alt="Comments">
+                        <span>댓글 3개 모두 보기</span>
+                    </a>
+                    <div class="post-reply">
+                        <input type="text" class="post-reply-input" placeholder="댓글 달기...">
+                        <a href="#">
+                            <img src="assets/icons/emoji.png" class="post-reply-emoji" alt="Emoji">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <a class="post-header-avatar">
+                            <img src="assets/images/avatar.png" alt="User Avatar">
+                        </a>
+                        <a href="#" class="post-header-username">user3</a>
+                        <span style="color: #999;">•</span>
+                        <a href="#" class="post-header-time">1시간</a>
+                        <a href="#" class="post-header-options">
+                            <img src="assets/icons/more.svg" alt="More Options Icon">
+                        </a>
+                    </div>
+                    <div class="post-image">
+                        <img src="assets/images/picture.jpeg" alt="Post Image">
+                    </div>
+                    <div class="post-actions">
+                        <a href="#" class="post-actions heart" alt="Post Actions Heart">
+                            <img src="assets/icons/heart.svg" alt="Heart">
+                        </a>
+                        <a href="#" class="post-actions reply" alt="Post Actions Reply">
+                            <img src="assets/icons/comment.svg" alt="Comment">
+                        </a>
+                        <a href="#" class="post-actions share" alt="Post Actions Share">
+                            <img src="assets/icons/share.svg" alt="Share">
+                        </a>
+                        <a href="#" class="post-actions bookmark" alt="Post Actions Bookmark">
+                            <img src="assets/icons/bookmark.svg" alt="Bookmark">
+                        </a>
+                    </div>
+                    <a href="#" class="post-likes">
+                        <span>좋아요 5개</span>
+                    </a>
+                    <div class="post-caption">
+                        <a href="#" class="post-caption-username" alt="Username">user1</a>
+                        <span>게시글</span>
+                    </div>
+                    <a href="#" class="post-comments" alt="Comments">
+                        <span>댓글 3개 모두 보기</span>
+                    </a>
+                    <div class="post-reply">
+                        <input type="text" class="post-reply-input" placeholder="댓글 달기...">
+                        <a href="#">
+                            <img src="assets/icons/emoji.png" class="post-reply-emoji" alt="Emoji">
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+        <aside class="side-menu">
+            <div class="my-profile">
+                <a href="#" class="my-profile-avatar">
+                    <img src="assets/images/avatar.png">
+                </a>
+                <div class="my-profile-name">
+                    <a href="#" class="my-profile-name-username">
+                        Sejong
+                    </a>
+                    <span>이름</span>
+                </div>
+                <a href="#" class="my-profile-switch">
+                    전환
+                </a>
+            </div>
+            <div class="recommend">
+                <span>회원님을 위한 추천</span>
+                <a href="#" class="recommend-all">
+                    모두 보기
+                </a>
+            </div>
+            <div class="recommend-profile">
+                <a href="#" class="recommend-profile-avatar">
+                    <img src="assets/images/avatar.png">
+                </a>
+                <div class="recommend-profile-name">
+                    <a href="#" class="recommend-profile-name-username">
+                        wwdazzwgw
+                    </a>
+                    <span class="recommend-profile-info">zxdwdasdfw님 외 5명이 팔로우합니다</span>
+                </div>
+                <a href="#" class="recommend-profile-follow">
+                    팔로우
+                </a>
+            </div>
+            <div class="recommend-profile">
+                <a href="#" class="recommend-profile-avatar">
+                    <img src="assets/images/avatar.png">
+                </a>
+                <div class="recommend-profile-name">
+                    <a href="#" class="recommend-profile-name-username">
+                        qwukiuigb
+                    </a>
+                    <span class="recommend-profile-info">user1님 외 5명이 팔로우합니다</span>
+                </div>
+                <a href="#" class="recommend-profile-follow">
+                    팔로우
+                </a>
+            </div>
+            <div class="recommend-profile">
+                <a href="#" class="recommend-profile-avatar">
+                    <img src="assets/images/avatar.png">
+                </a>
+                <div class="recommend-profile-name">
+                    <a href="#" class="recommend-profile-name-username">
+                        ccafpowc
+                    </a>
+                    <span class="recommend-profile-info">wdafawd님 외 5명이 팔로우합니다</span>
+                </div>
+                <a href="#" class="recommend-profile-follow">
+                    팔로우
+                </a>
+            </div>
+            <div class="footer">
+                <div class="footer-links">
+                    <a href="#">소개</a>.
+                    <a href="#">도움말</a>.
+                    <a href="#">홍보 센터</a>.
+                    <a href="#">API</a>.
+                    <a href="#">채용 정보</a>.
+                    <a href="#">개인정보처리방침</a>.
+                    <a href="#">약관</a>.
+                    <a href="#">위치</a>.
+                    <a href="#">언어</a>.
+                    <a href="#">Meta Verified</a>
+                </div>
+                
+                <span>© 2025 INSTAGRAM FROM META</span>
+            </div>
+        </aside>
+            
+    </main>
+</body>
+</html>
